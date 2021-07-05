@@ -1,0 +1,219 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: "Trebuchet MS", Helvica, sans-serif;
+	background: #fff url(imagens/fundo.png) repeat-x;
+
+}
+#topo{
+	height: 180px;
+	background: url(imagens/detalhe-topo.png) no-repeat right top;
+
+}
+
+.logo{
+	width: 152px;
+	height: 66px;
+	background: url(imagens/logo.png) no-repeat center;
+}
+
+.container{
+	width: 750px;
+	margin:0 auto;
+	padding-top: 15px;
+}
+#navegacao{
+	margin-bottom: 10px;
+	padding-top: 40px;
+}
+
+h1 .logo{
+	margin-top: 20px;
+}
+ul{
+	list-style: none;
+	padding: 0;
+	margin:0;
+}
+
+ul#navegacao li{
+	float: left;
+	background: #b10333
+}
+
+ul#navegacao a{
+	text-decoration: none;
+	font-size: 0.9em;
+	display: block;
+	padding: 0.5em 1.5em;
+	line-height: 2.1em;
+	color: #fff;
+	text-decoration: none;
+	background: url(imagens/divisor.png) no-repeat left center;
+}
+#topo ul .primeiro a{
+	background: none;
+}
+#topo ul a:hover{
+	color: #69001d;
+}
+body.home a#home,
+body.brasil a#brasil,
+body.internacional a#internacional,
+body.home a#home{
+	background: #de003b;
+}
+
+/* Configurando o layout de 3 colunas*/
+
+#conteudo{
+	margin-top: 60px;
+	background: #f5f5f5;
+	width: 750px;
+}
+#primario{
+	width: 270px;
+	margin: 0 0 20px 195px;
+	float: left;
+}
+#secundario{
+	width: 270px;
+	margin: 0 0 20px 10px;
+	float: left;
+}
+#tres-colunas #lateral{
+	width: 180px;
+	margin: 0 0 20px -750px;
+	float: left;
+}
+
+#container-rodape{
+	background: #294c71;
+	padding: 20px;
+	width: 100%;
+	text-align: center;
+}
+#rodape{
+	color: #fff;
+
+}
+/*Lateral*/
+
+#lateral ul a{
+	font-size: 0.9em;
+	padding: 3px;
+	display: block;
+	line-height: 30px;
+	color: #000;
+	text-decoration: none;
+	border-bottom: 1px  solid #f3f3f3;
+}
+#lateral ul a:hover{
+	background: #f9f9f9 url("imagens/marcador.png") no-repeat left center ;
+	color: #a1a1a1;
+	padding-left: 20px;
+
+}
+
+/*Formantando os textos*/
+/*input{
+	width: 125px
+	padding: 5px;
+	font-size: 0.9;
+	background: #fff;
+
+}*/
+img{
+	border: 2px solid #dfdfdf;
+}
+input{
+	width: 125px;
+	font-size: 0.9em;
+	padding: 5px;
+	background-color: #fff;
+}
+input.submit{
+	width: 80px;
+	color: #fff;
+	background-color: #b10333;
+	border: 2px solid #870529;
+	padding: 5px;
+
+}
+label{
+
+	display: block;
+	cursor: pointer;
+}
+h2{
+	font-size: 1.1em;
+	padding: 7px;
+	background: #295c71;
+	color: #fff;
+}
+h3{
+	text-transform: uppercase;
+	display: inline;
+	font-size: 0.8em;
+	padding: 3px;
+}
+.destaque h3{
+	background-color: #b10333;
+	color: #fff;
+}
+.caixa{
+	margin: 10px 0px;
+	background: #f3f3f3)
+
+}
+
+.caixa-conteudo{
+	background: :#fff;
+	padding: 5px;
+	margin-top: 5px;
+}
+/*Formatando noticias*/
+
+#lista-noticias{
+	margin-top: 20px;
+	display: inline-block;
+	height: 300px;
+	padding: 2px;
+	border-bottom: 1px solid #ccc;
+	height: 65px;
+}
+#lista-noticias li a img{
+	float: left;
+	margin:5px;
+}
+#lista-noticias li a{
+	text-decoration: none;
+}
+#lista-noticias li a h3{
+	font-size: 0.8em;
+}
+#lista-noticias li a p{
+	font-size: 0.6
+}
+
+
+
+/*Brasil*/
+
+#duas-colunas #priario{
+	width: 555px;
+	float: left;
+	background: yellow;
+}
+
+/*Fotos*/
+
+#uma-coluna #primario{
+	width: 750px;
+	margin-bottom: 20px;
+	background: blue;
+}
